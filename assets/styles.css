@@ -85,9 +85,13 @@ nav {
 .item {
     height: 18em;
     width: 18em;
+    background: #000;
 }
 .item>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.item>img:hover {
+    
 }
